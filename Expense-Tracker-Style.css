@@ -6,16 +6,20 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-image: url('image3.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center; 
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    color: white;
 }
 
 .container {
     width: 400px;
-    background-color: white;
+    background-color: black;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
@@ -28,6 +32,7 @@ input, select, button {
     margin: 10px 0;
     border: 1px solid #ddd;
     border-radius: 5px;
+    background-color: white;
 }
 
 button {
